@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>NFT Marketplace</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<style>
+		body {
+			background-color: #2B2B2B;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20231213000251">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css?_v=20231213000251">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll-="100" data-scroll-show="500">
+			<div class="header__container">
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="NFT-Marketplace"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a class="menu__link" href="marketplace.html">Marketplace</a></li>
+							<li class="menu__item"><a class="menu__link" href="ranking.html">Rankings</a></li>
+							<li class="menu__item"><a class="menu__link" href="create-account.html">Connect a wallet</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a class="header__button button _icon-user" href="#" data-da=".menu__list,767.98">Sign Up</a>
+			</div>
+		</header>
+		<main class="page__marketplace">
+			<section class="marketplace">
+				<div class="marketplace__container">
+					<div class="marketplace__top">
+						<h2 class="marketplace__title">Browse Marketplace</h2>
+						<div class="marketplace__text">
+							<p>Browse through more than 50k NFTs on the NFT Marketplace.</p>
+						</div>
+						<form class="marketplace__form form-marketplace">
+							<label class="form-marketplace__label">
+								<input required type="search" name="form[search]" data-error="Error" placeholder="Search your favourite NFTs" class="form-marketplace__input">
+								<button type="submit" class="form-marketplace__button _icon-search"></button>
+							</label>
+						</form>
+					</div>
+				</div>
+				<div class="marketplace__inner">
+					<div class="marketplace__container">
+						<div data-tabs class="marketplace__tabs tabs">
+							<nav data-tabs-titles class="marketplace__navigation tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">NFTs <span>302</span></button>
+								<button type="button" class="tabs__title">Collections <span>67</span></button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body">
+									<div class="discover__items">
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/01.webp" type="image/webp"><img src="img/page-main/discover/01.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Distant Galaxy</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-01.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-01.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">MoonDancer</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/02.webp" type="image/webp"><img src="img/page-main/discover/02.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Life On Edena</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-02.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-02.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">NebulaKid</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/03.webp" type="image/webp"><img src="img/page-main/discover/03.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">AstroFiction</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-03.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-03.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">Spaceone</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/04.webp" type="image/webp"><img src="img/page-main/discover/04.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">CryptoCity</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-01.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-01.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">MoonDancer</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/05.webp" type="image/webp"><img src="img/page-main/discover/05.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">ColorfulDog 0524</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-02.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-02.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">NebulaKid</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/06.webp" type="image/webp"><img src="img/page-main/discover/06.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Space Tales</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-03.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-03.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">Spaceone</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/07.webp" type="image/webp"><img src="img/page-main/discover/07.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Cherry Blossom Girl 037</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-01.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-01.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">MoonDancer</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/08.webp" type="image/webp"><img src="img/page-main/discover/08.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Dancing Robots 0987</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-02.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-02.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">NebulaKid</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/09.webp" type="image/webp"><img src="img/page-main/discover/09.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">IceCream Ape</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-03.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-03.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">Spaceone</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tabs__body">
+									<div class="discover__items">
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/04.webp" type="image/webp"><img src="img/page-main/discover/04.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">CryptoCity</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-01.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-01.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">MoonDancer</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/05.webp" type="image/webp"><img src="img/page-main/discover/05.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">ColorfulDog 0524</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-02.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-02.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">NebulaKid</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/06.webp" type="image/webp"><img src="img/page-main/discover/06.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Space Tales</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-03.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-03.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">Spaceone</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/07.webp" type="image/webp"><img src="img/page-main/discover/07.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Cherry Blossom Girl 037</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-01.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-01.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">MoonDancer</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/08.webp" type="image/webp"><img src="img/page-main/discover/08.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">Dancing Robots 0987</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-02.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-02.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">NebulaKid</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="discover__item item-discover">
+											<a class="item-discover__image-link" href="#">
+												<picture><source srcset="img/page-main/discover/09.webp" type="image/webp"><img src="img/page-main/discover/09.jpg" alt="image"></picture>
+											</a>
+											<div class="item-discover__body">
+												<h3 class="item-discover__title"><a class="item-discover__title-link" href="#">IceCream Ape</a></h3>
+												<a class="item-discover__author-link" href="#">
+													<picture><source srcset="img/page-main/discover/avatar-03.webp" type="image/webp"><img class="item-discover__avatar" src="img/page-main/discover/avatar-03.jpg" alt="avatar"></picture>
+													<div class="item-discover__name">Spaceone</div>
+												</a>
+												<div class="item-discover__box">
+													<div class="item-discover__price">
+														<p class="item-discover__text">Price</p>
+														<div class="item-discover__value">1.63 ETH</div>
+													</div>
+													<div class="item-discover__highest">
+														<p class="item-discover__text">Highest Bid</p>
+														<div class="item-discover__value">0.33 wETH</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__items">
+					<div class="footer__item item-footer">
+						<a href="#" class="item-footer__logo"><img src="img/logo.svg" alt="logo"></a>
+						<div class="item-footer__text">
+							<p>NFT marketplace UI created with Anima for Figma.</p>
+						</div>
+						<p class="item-footer__text-social">Join our community</p>
+						<ul class="item-footer__social social">
+							<li class="social__item"><a class="social__link _icon-discord" href="#"></a></li>
+							<li class="social__item"><a class="social__link _icon-youtube" href="#"></a></li>
+							<li class="social__item"><a class="social__link _icon-twitter" href="#"></a></li>
+							<li class="social__item"><a class="social__link _icon-instagram" href="#"></a></li>
+						</ul>
+					</div>
+					<div class="footer__item item-footer">
+						<h3 class="item-footer__title">Explore</h3>
+						<ul class="item-footer__items">
+							<li class="item-footer__item"><a class="item-footer__link" href="#">Marketplace</a></li>
+							<li class="item-footer__item"><a class="item-footer__link" href="#">Rankings</a></li>
+							<li class="item-footer__item"><a class="item-footer__link" href="#">Connect a wallet</a></li>
+						</ul>
+					</div>
+					<div class="footer__item item-footer">
+						<h3 class="item-footer__title">Join our weekly digest</h3>
+						<div class="item-footer__text">
+							<p>Get exclusive promotions & updates straight to your inbox.</p>
+						</div>
+						<form class="item-footer__form form-block" action="#">
+							<input data-required="email" autocomplete="off" type="text" name="form[email]" data-error="Enter your valid email" placeholder="Enter your email here" class="form-block__input">
+							<button type="submit" class="form-block__button button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__copy">Ⓒ NFT Market. Use this template freely.</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Стилі для body -->
+	<style>
+		.lock body {
+			overflow: hidden;
+			touch-action: none;
+			overscroll-behavior: none;
+		}
+
+		.loading body {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		.loaded body {
+			transition: opacity 1s ease 0s;
+			opacity: 1;
+			visibility: visible;
+		}
+	</style>
+	<div id="fls-preloader">
+		<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+		<!-- Стилі для прелоадера -->
+		<style>
+			* {
+				padding: 0px;
+				margin: 0px;
+				border: 0px;
+			}
+
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+
+			html {
+				overflow: hidden;
+				touch-action: none;
+				overscroll-behavior: none;
+			}
+
+			/* Головний блок */
+			.fls-preloader {
+				font-family: "Work Sans";
+				pointer-events: none;
+				z-index: -1;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			/* Блок з елементами */
+			.fls-preloader__body {
+				padding: 0.93rem;
+				max-width: 31.25rem;
+				display: flex;
+				flex-direction: column;
+			}
+
+			/* Блок з лічильником */
+			.fls-preloader__counter {
+				font-size: 10rem;
+				line-height: 140%;
+				color: #fff;
+
+
+
+			}
+
+			@media (max-width: 767.98px) {
+				.fls-preloader__counter {
+					font-size: 7rem;
+				}
+
+			}
+
+			@media (max-width: 479.98px) {
+				.fls-preloader__counter {
+					font-size: 5rem;
+				}
+			}
+
+
+			/* Прогресбар */
+			.fls-preloader__line {
+				position: relative;
+				border-radius: 20px;
+				height: 0.8rem;
+			}
+
+			.fls-preloader__line::before {
+				border-radius: 20px;
+				content: '';
+				box-sizing: border-box;
+				top: 2px;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				background-color: rgba(255, 255, 255, 0.15);
+				background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
+				background-size: 15px 15px;
+				z-index: 10;
+				animation: barStripe 1s linear infinite;
+			}
+
+			/* Лінія прогресбару */
+			.fls-preloader__line span {
+				border-radius: 20px;
+				display: inline-block;
+				transition: width 0.2s ease;
+				height: 0.8rem;
+				background-color: #A259FF;
+			}
+
+
+			@keyframes barStripe {
+				0% {
+					background-position: 1em 0;
+				}
+
+				100% {
+					background-position: 0 0;
+				}
+			}
+		</style>
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__counter">0%</div>
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.querySelector('html').insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20231213000251"></script>
+</body>
+
+</html>
